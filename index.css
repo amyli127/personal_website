@@ -1,0 +1,66 @@
+/* Put your style information here! */
+
+body {
+  font-family: "Roboto";
+}
+
+.navbar {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+.home {
+  height: 100vh;
+}
+
+.hello {
+  height: calc(100vh - 94px);
+  /* background-color: yellow; */
+}
+
+.hi {
+  width: 60%;
+}
+
+.hi-text {
+  font-family: "Vast Shadow";
+  font-size: 50px;
+}
+
+.about {
+  height: 100vh;
+}
+
+.title-text {
+  font-family: "Vast Shadow";
+}
+
+.about-content {
+  width: 60%;
+  margin-top: 5rem;
+}
+
+.resume {
+  width: 100%;
+}
+
+.work-headers {
+  border-right: black solid 0.5px;
+  width: 80%;
+}
+
+hr {
+  margin-left: 50px;
+  width: 100%;               
+  background-color: black;
+  height: 1px;
+}
+
+.work-items {
+  margin-left: 5%;
+}
+
+li {
+  margin-top: 0.5rem;
+}
