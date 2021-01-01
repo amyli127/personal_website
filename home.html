@@ -2,10 +2,11 @@
 
 <html lang="en">
   <head>
-    <title>XXX</title>
+    <title>Amy Li</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sansita+Swashed" rel="stylesheet">
@@ -17,7 +18,7 @@
   <body>
     <div class="section home" onClick="scrollDown">
       <nav class="navbar navbar-expand-md navbar-light bg-transparent">
-        <a class="navbar-brand" href="#">XXX</a>
+        <a class="navbar-brand" href="#">Amy Li</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,32 +36,33 @@
       <div class="hello d-flex align-items-center justify-content-center">
         <div class="hi d-flex flex-column justify-content-center">
           <h1 class="hi-text">Hello!</h1>
-          <p class="mt-2 good">I want to build tech for social good.</p>
+          <p class="mt-2 good">I'm Amy. I want to build tech for social good.</p>
           <p>I am a Senior at Brown studying Computer Science and Economics. I'm looking to combine tech, sustainability, economics, and design.</p>
         </div>
       </div>
     </div>
 
     <div id="work" class="section about d-flex flex-column align-items-center">
+      <div class="title-text d-flex">
+        <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">About Me</h1>
+        <hr>
+      </div>
       <div class="about-content">
-        <div class="title-text d-flex flex-row justify-content-center">
-          <h1>About Me</h1>
-          <hr>
-        </div>
-        <p class="mt">Hi! I'm Amy. I'm </p>
+        <p>Hi! I’m Amy. I’m an Indian-food-loving, Queen’s-Gambit-watching, tennis-attempting gal originally from Rochester, NY.</p>
+        <p>I am a senior at Brown University majoring in Computer Science-Economics. I will be graduating in May 2021 (ah so soon!) and will be joining Google NYC as a software engineer in the fall. In the past, I’ve interned at Google, Ellevest, and Campuswire.</p>
+        <p>I love building things, and I love coding. After taking some cool classes at Brown, I’ve become interested in using tech to empower women, combat climate change, and solve interesting problems in the market.</p>
       </div>
     </div>
 
-    <div id="work" class="section about d-flex flex-column align-items-center">
+    <div id="work" class="section d-flex flex-column align-items-center justify-content-center">
+      <div class="title-text d-flex justify-content-center">
+        <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">Work</h1>
+        <hr>
+      </div>
       <div class="about-content">
-        <div class="title-text d-flex flex-row justify-content-center">
-          <h1>Work</h1>
-          <hr>
-        </div>
-
         <div class="work-content container">
-          <div class="d-flex row mt-4">
-            <div class="work-headers col-3 mr-2 text-right">
+          <div class="d-flex row">
+            <div class="work-headers col-3 pr-4 text-right">
               <p>Professional</p>
               <p>Experience</p>
             </div>
@@ -121,7 +123,7 @@
           </div> 
           <div class="d-flex row">
             <div class="work-headers col-3">
-              <p class="mt-4 text-right mr-2">Skills</p>
+              <p class="mt-4 text-right pr-4">Skills</p>
             </div>
             <div class="work-items col">
               <div class="row mt-4">
@@ -156,19 +158,20 @@
       </div>
     </div>
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous"></script>
-    <script>
-      $(function() {
-        $.scrollify({
-          section : ".section",
-        });
-      });
+    <div class="d-flex say-hi ho align-items-end justify-content-start">
+      <div class="hi d-flex flex-column justify-content-center">
+        <div class="say-hi-text">
+          <h1 class="hi-text">Say Hi!</h1>
+          <p class="mt-4">I love talking to people! Feel free to reach out to me about anything and everything :)</p>
+          <p>You can email me at amy_li1@brown.edu or connect me on LinkedIn.</p>
+        </div>
+      </div>
+    </div>
 
-      function scrollDown() {
-        $.scrollify.next();
-      }
-    </script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    	AOS.init();
+  	</script>
 
   </body>
 </html>
