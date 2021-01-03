@@ -1,5 +1,10 @@
 /* Put your style information here! */
 
+@font-face {
+  font-family: Sectra;
+  src: url("static/fonts/GT-Sectra-Display-Trial-Super-Italic.otf") format("opentype");
+}
+
 body {
   font-family: "Roboto";
 }
@@ -23,17 +28,32 @@ body {
 }
 
 .hi-text {
-  font-family: "Vast Shadow";
+  /* font-family: "Sectra"; */
+  font-family: "Playfair Display";
   font-size: 50px;
+  /* -webkit-text-stroke: black 1px;
+  color: transparent; */
 }
+
+/* .whoa {
+  width: 100%;
+} */
 
 .about {
   height: 100vh;
 }
 
 .title-text {
-  font-family: "Vast Shadow";
+  /* font-family: "Sectra"; */
+  font-family: "Playfair Display";
+  font-size: 100px;
+  /* -webkit-text-stroke: black 1px;
+  color: transparent; */
   width: 80%
+}
+
+.about-me-text {
+  min-width: 180px;
 }
 
 .about-content {
@@ -53,7 +73,7 @@ hr {
   margin-left: 50px;
   width: 100%;               
   background-color: black;
-  height: 1px;
+  /* height: 0.8px; */
 }
 
 .work-items {
