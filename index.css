@@ -33,6 +33,7 @@ body {
   font-size: 50px;
   /* -webkit-text-stroke: black 1px;
   color: transparent; */
+  color: #FF988D;
 }
 
 /* .whoa {
@@ -49,7 +50,8 @@ body {
   font-size: 100px;
   /* -webkit-text-stroke: black 1px;
   color: transparent; */
-  width: 80%
+  width: 80%;
+  color: #FD2B81;
 }
 
 .about-me-text {
