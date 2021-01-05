@@ -16,39 +16,51 @@
     <link href="https://fonts.googleapis.com/css?family=Sansita+Swashed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
 
     <base href="">
   </head>
 
   <body>
     <div class="section home">
-      <nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-light bg-transparent">
-        <a class="navbar-brand" href="#">Amy Li</a>
+      <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-transparent">
+        <!-- <a class="navbar-brand" href="#">Amy Li</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="images/XXX_Resume.pdf">Resume</a>
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="static/AmyLi_Resume.pdf">Resume</a>
+                </li>
             </ul>
         </div>
       </nav>
 
-      <div class="hello d-flex align-items-center justify-content-center">
+      <div id="#" class="hello d-flex align-items-center justify-content-center">
         <div class="hi d-flex flex-column justify-content-center">
           <h1 class="hi-text">Hi! I'm Amy.</h1>
-          <p class="mt-2 good">I want to build tech for social good.</p>
+          <p class="mt-3 good">I want to build tech for social good.</p>
           <p>I am a Senior at Brown studying Computer Science and Economics. I'm looking to combine tech, sustainability, economics, and design.</p>
+          <div class="mt-3">
+            <a href="mailto:amyli358@gmail.com"><img class="icon-black" src="static/icons/email-black.png"></a>
+            <a href="https://www.linkedin.com/in/amyli127/"><img class="icon-black" src="static/icons/linkedin-black.png"></a>
+            <a href="https://github.com/amyli127"><img class="icon-black" src="static/icons/github-black.png"></a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div id="work" class="section about d-flex flex-column align-items-center justify-content-center">
+    <div id="about" class="section about d-flex flex-column align-items-center justify-content-center">
       <div class="title-text d-flex">
         <h1 class="about-me-text" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">About Me</h1>
         <hr>
@@ -60,7 +72,7 @@
       </div>
     </div>
 
-    <div id="work" class="mt-5 section d-flex flex-column align-items-center justify-content-center">
+    <div id="work" class="pt-5 section d-flex flex-column align-items-center justify-content-center">
       <div class="title-text d-flex justify-content-center">
         <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">Work</h1>
         <hr>
@@ -171,7 +183,11 @@
         <div id="say-hi-text" class="say-hi-text">
           <h1 id="say-hi-text1" class="hi-text">Say Hi!</h1>
           <p class="mt-4">I love talking to people! Feel free to reach out to me about anything and everything.</p>
-          <p>You can email me at amy_li1@brown.edu or connect me on LinkedIn.</p>
+          <div class="mt-4">
+            <a href="mailto:amyli358@gmail.com"><img class="icon" src="static/icons/email.png"></a>
+            <a href="https://www.linkedin.com/in/amyli127/"><img class="icon" src="static/icons/linkedin.jpg"></a>
+            <a href="https://github.com/amyli127"><img class="icon" src="static/icons/github.jpg"></a>
+          </div>
         </div>
       </div>
     </div>
@@ -185,13 +201,13 @@
     <script>
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbar").style.top = "0";
-        } else {
-          document.getElementById("navbar").style.top = "-96px";
-        }
-        prevScrollpos = currentScrollPos;
+      // var currentScrollPos = window.pageYOffset;
+      //   if (prevScrollpos > currentScrollPos) {
+      //     document.getElementById("navbar").style.top = "0";
+      //   } else {
+      //     document.getElementById("navbar").style.top = "-96px";
+      //   }
+      //   prevScrollpos = currentScrollPos;
 
         var say_hi = document.getElementById("say-hi");
         var say_hi_text = document.getElementById("say-hi-text")

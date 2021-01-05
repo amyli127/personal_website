@@ -65,7 +65,7 @@ body {
 
 .about-content {
   width: 60%;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .resume {
@@ -107,4 +107,18 @@ li {
 
 .say-hi-text {
   width: 70%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FD2B81;
+}
+
+.icon {
+  width: 2rem;
+  margin-right: 15px;
+}
+
+.icon-black {
+  width: 1.5rem;
+  margin-right: 20px;
 }
