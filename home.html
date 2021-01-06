@@ -60,7 +60,7 @@
     <div id="about" class="section about d-flex flex-column align-items-center justify-content-center">
       <div class="title-text d-flex">
         <h1 class="about-me-text" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">About Me</h1>
-        <hr>
+        <hr data-aos="zoom-in">
       </div>
       <div class="about-content" data-aos="fade-up">
         <p>Hello! I’m Amy Li. I am a food-loving, Queen’s-Gambit-watching, tennis-attempting gal originally from Rochester, NY.</p>
@@ -72,13 +72,13 @@
     <div id="work" class="pt-5 section d-flex flex-column align-items-center justify-content-center">
       <div class="title-text d-flex justify-content-center">
         <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">Work</h1>
-        <hr>
+        <hr data-aos="zoom-in">
       </div>
       <div class="about-content">
         <div class="work-content container">
           <div class="d-flex row">
             <div class="work-headers col-3 pr-5 text-right">
-              <p data-aos="fade-right"><span class="highlight">Professional</span></p<span></span>
+              <p data-aos="fade-right" class="mb-0"><span class="highlight">Professional</span></p<span></span>
               <p data-aos="fade-right"><span class="highlight">Experience</span></p<span></span>
             </div>
             <div class="work-items col" data-aos="fade-left" data-aos="fade-left">
@@ -86,7 +86,7 @@
               <p class="dates">Summer 2020</p>
               <ul> 
                 <li>
-                  Developed and launched new metering feature for the ad blocking messaging product (similar to a paywall), with the goal of driving down website bounce rates. Used Java, Javascript, Guice dependency injection, and Google internal frameworks for microservices and async dependency graphs
+                  Developed and launched new metering feature for the paywall product, with the goal of driving down website bounce rates
                 </li>
                 <li>
                   Implemented browser storage and browser-server communication for feature, designed metering logic for complex message selection RPC service, and wrote extensive integration tests for feature launch
@@ -107,9 +107,6 @@
                 </li>
                 <li>
                   Created new experiences such as sending and receiving group clips, group activity history, and handling blocked users
-                </li>
-                <li>
-                  Wrote extensive unit and end-to-end Espresso tests and triaged feature launch bugs to prepare for production
                 </li>
               </ul>
               <button type="button" style="margin-left: 40px;" class="btn tags btn-outline-primary btn-sm" disabled>Java</button>
