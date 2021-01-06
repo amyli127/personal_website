@@ -11,12 +11,12 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sansita+Swashed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sansita+Swashed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 
     <base href="">
   </head>
@@ -31,16 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#about"><span class="highlight">About</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#work"><span class="highlight">Work</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#work">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="static/AmyLi_Resume.pdf">Resume</a>
+                    <a class="nav-link" href="static/AmyLi_Resume.pdf"><span class="highlight">Resume</span></a>
                 </li>
             </ul>
         </div>
@@ -85,20 +82,27 @@
               <p>Experience</p>
             </div>
             <div class="work-items col" data-aos="fade-left" data-aos="fade-left">
-              <p>Google – Software Engineering Intern, Funding Choices (Ads)</p>
-              <ul>
+              <p class="work-item-header"><b>Google</b> – Software Engineering Intern, Funding Choices (Ads)</p>
+              <p class="dates">Summer 2020</p>
+              <ul> 
                 <li>
                   Developed and launched new metering feature for the ad blocking messaging product (similar to a paywall), with the goal of driving down website bounce rates. Used Java, Javascript, Guice dependency injection, and Google internal frameworks for microservices and async dependency graphs
                 </li>
                 <li>
                   Implemented browser storage and browser-server communication for feature, designed metering logic for complex message selection RPC service, and wrote extensive integration tests for feature launch
                 </li>
-              </ul>
+              </ul> 
+              <button type="button" style="margin-left: 40px;" class="btn tags btn-outline-primary btn-sm" disabled>Java</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>JS</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Guice</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Async Dependency Graphs</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Microservices</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Protobufs</button>
 
               <p class="mt-4">Google – Engineering Practicum Intern, Duo (Comms)</p>
               <ul>
                 <li>
-                  Implemented new Group Clips feature on Duo Android app using Java, Android development, Dagger dependency injection, and Guava’s ListenableFutures library. Group clips has launched and is visible to millions of users
+                  Implemented and launched new Group Clips feature on Duo Android app, allowing users to send video messages to groups
                 </li>
                 <li>
                   Created new experiences such as sending and receiving group clips, group activity history, and handling blocked users
@@ -107,6 +111,11 @@
                   Wrote extensive unit and end-to-end Espresso tests and triaged feature launch bugs to prepare for production
                 </li>
               </ul>
+              <button type="button" style="margin-left: 40px;" class="btn tags btn-outline-primary btn-sm" disabled>Java</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Android</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Dagger</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>ListenableFutures</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Protobufs</button>
 
               <p class="mt-4">Brown University – Teaching Assistant, Computing Foundations</p>
               <ul>
@@ -117,16 +126,17 @@
                   Created course materials and philosophy, graded assignments, led labs, and held office hours
                 </li>
               </ul>
+              <button type="button" style="margin-left: 40px;" class="btn tags btn-outline-primary btn-sm" disabled>Python</button>
 
               <p class="mt-4">Ellevest – Software Engineering Intern</p>
               <ul>
                 <li>
                   Implemented improvements in Client App and Back Office App, the internal tools used by the company’s financial advisors and Client Experience Team members
                 </li>
-                <li>
-                  Debugged and wrote scalable code for fast-growing fintech startup using Ruby on Rails, Docker, HTML, and CSS
-                </li>
               </ul>
+              <button type="button" style="margin-left: 40px;" class="btn tags btn-outline-primary btn-sm" disabled>Ruby on Rails</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>Docker</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>HTML/CSS</button>
 
               <p class="mt-4">Campuswire – Student Design Team Intern</p>
               <ul>
@@ -137,6 +147,8 @@
                   Created media for marketing campaigns and initiated outreach to potential customers
                 </li>
               </ul>
+              <button type="button" style="margin-left: 40px;" class="btn tags btn-outline-primary btn-sm" disabled>SQL</button>
+              <button type="button" class="btn tags btn-outline-primary btn-sm" disabled>ScreenFlow</button>
             </div>
           </div> 
           <div class="d-flex row">
