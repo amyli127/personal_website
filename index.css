@@ -77,7 +77,7 @@ body {
   font-family: "Playfair Display", serif;
   font-weight: medium;
   font-style: regular;
-  color: #FD2B81;
+  /* color: #FD2B81; */
 }
 
 hr {
@@ -133,24 +133,24 @@ li {
 .dates {
   /* font-size: 0.8rem; */
   /* color: rgb(139, 139, 139); */
+  /* margin-top: 0; */
 }
 
 .work-item-header {
   /* margin-bottom: 0.5rem; */
   margin-bottom: 0;
+  margin-top: 3rem;
 }
 
 .tags {
   /* height: 0.5rem; */
-  margin
-}
-
-.btn-outline-primary {
-  /* border-color: #FD2B81; */
-  border-color: #ff988d;
 }
 
 .btn-outline-primary:disabled {
   /* color: #FD2B81; */
   color: #ff988d;
+}
+
+.btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outlineprimary.active, .open>.dropdown-toggle.btn-outline-primary {
+  border-color: #ff988d;
 }
