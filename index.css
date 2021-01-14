@@ -139,11 +139,15 @@ li {
 .work-item-header {
   /* margin-bottom: 0.5rem; */
   margin-bottom: 0;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .tags {
   /* height: 0.5rem; */
+}
+
+.btn {
+  margin-bottom: 0.5rem;
 }
 
 .btn-outline-primary:disabled {
