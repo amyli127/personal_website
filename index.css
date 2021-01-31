@@ -102,11 +102,16 @@ li {
 .say-hi {
   height: 100vh;
   padding-left: 10%;
-  padding-bottom: 20vh;
+  padding-bottom: 12vh;
 }
 
 .say-hi-text {
   width: 70%;
+}
+
+.designed-by {
+  color: #ffbab3;
+  font-size: 15px;
 }
 
 /* .navbar-light .navbar-nav .nav-link { */
